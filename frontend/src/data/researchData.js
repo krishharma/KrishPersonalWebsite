@@ -1,0 +1,91 @@
+export const DISC_LAB_URL =
+  "https://arifuzzaman.faculty.unlv.edu/research.html";
+
+export const RESEARCH = [
+  {
+    id: "gnn-privacy",
+    index: "01",
+    kind: "lab",
+    shortTitle: "GNN Privacy",
+    title: "Privacy Defenses for Graph Neural Networks",
+    titleLead: "Privacy Defenses",
+    titleSub: "for Graph Neural Networks",
+    venue: "UNLV DiSC Lab",
+    venueUrl: DISC_LAB_URL,
+    labLink: { label: "DiSC Lab", url: DISC_LAB_URL },
+    mentor: "Dr. Shaikh Arifuzzaman",
+    year: "2026",
+    status: "ongoing",
+    statusLabel: "Lead project",
+    description:
+      "Privacy research on graph neural networks at the Data-intensive Scalable Computing Laboratory, focusing on adversarial training and differential privacy on real-world graph datasets.",
+    highlights: [
+      "PyTorch Geometric pipelines with a PhD mentor and undergrad team.",
+      "Adversarial training and differential privacy on large-scale graph data.",
+      "Scalable GNN defenses for sensitive networks.",
+    ],
+    tags: ["GNNs", "PyTorch", "Privacy", "HPC"],
+    logo: "/experience/logos/disc.svg",
+    logoAlt: "UNLV DiSC Lab",
+  },
+  {
+    id: "cdr-is",
+    index: "02",
+    kind: "paper",
+    shortTitle: "CDR Paper",
+    title: "Corporate Digital Responsibility in Information Systems",
+    venue: "Western Decision Sciences Institute Conference",
+    year: "2025",
+    status: "accepted",
+    statusLabel: "Accepted for presentation",
+    description:
+      "Full research paper under UNLV Professor Dr. Chatterjee, covering the question, methodology, literature review, data collection, and analysis.",
+    highlights: [
+      "Defined research question, methodology, and analytical framework.",
+      "Manuscript accepted for presentation at WDSI 2026.",
+    ],
+    tags: ["Information systems", "Corporate policy"],
+    logo: "/experience/logos/wdsi.png",
+    logoAlt: "Western Decision Sciences Institute",
+  },
+  {
+    id: "enzyme-prediction",
+    index: "03",
+    kind: "lab",
+    shortTitle: "Enzyme AI",
+    title: "AI-Driven Enzyme Commission Number Prediction",
+    venue: "UNLV DataX Lab",
+    year: "2025",
+    status: "ongoing",
+    statusLabel: "Ongoing",
+    description:
+      "Bioinformatics work on predicting enzyme commission numbers with AI at UNLV DataX Lab.",
+    highlights: [
+      "SQL pipelines for cleaning and preprocessing large biomedical datasets.",
+      "Python visualizations to surface patterns for enzyme prediction.",
+    ],
+    tags: ["Bioinformatics", "Machine learning", "SQL"],
+    logo: "/experience/logos/datax.png",
+    logoAlt: "DataX Lab",
+  },
+  {
+    id: "mountain-west",
+    index: "04",
+    kind: "policy",
+    shortTitle: "Mountain West",
+    title: "Mountain West States Policy Analysis",
+    venue: "UNLV Brookings Mountain West",
+    year: "2025",
+    status: "published",
+    statusLabel: "500+ downloads",
+    description:
+      "Fact sheets on regional policy, economics, and AI adoption across Mountain West states for the UNLV Data Hub.",
+    highlights: [
+      "Excel and Python pipelines for regional data cleaning and visualization.",
+      "Publications passed 500 downloads on the UNLV Data Hub.",
+    ],
+    tags: ["Public policy", "Data analysis"],
+    logo: "/experience/logos/brookings.png",
+    logoAlt: "Brookings Mountain West",
+  },
+];

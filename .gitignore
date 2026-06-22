@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+PER/frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs & System files
+.DS_Store
+.vscode/
+.idea/
+.ruff_cache/
+.emergent/
+
+# Local Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+frontend/.env.local
+
+# Backups & Archives
+*.backup*
+archive (2).zip
+archive.zip
+
+# Production build outputs
+frontend/build/
+build/

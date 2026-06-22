@@ -1,0 +1,18 @@
+.page-transition-viewport {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.page-transition-panel {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: var(--bg-page, #f4f6fb);
+  will-change: transform;
+}

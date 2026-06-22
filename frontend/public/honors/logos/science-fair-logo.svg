@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="200" viewBox="0 0 512 200">
+  <rect width="512" height="200" fill="#ffffff"/>
+  <g transform="translate(256 78)" fill="none" stroke="#4f7cff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-24 36 V-4 L-10 -24 H10 L24 -4 V36"/>
+    <path d="M-32 36 H32"/>
+    <circle cx="0" cy="10" r="8" fill="#4f7cff" stroke="none"/>
+  </g>
+  <text x="256" y="138" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">Southern Nevada</text>
+  <text x="256" y="168" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">Science Fair</text>
+</svg>

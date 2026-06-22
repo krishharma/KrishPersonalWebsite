@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1a1a1a" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect x="56" y="56" width="400" height="400" rx="32" ry="32" fill="#ffffff" stroke="#e2e6ef" stroke-width="4" filter="url(#shadow)"/>
+  <rect x="56" y="56" width="400" height="10" rx="32" ry="32" fill="#00539b"/>
+  <rect x="56" y="60" width="400" height="6" fill="#00539b"/>
+  <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEwNS40IDM1MC44MyAzOTEuNTggODAiPjx0aXRsZT5ERUNBIExvZ28gQmx1ZTwvdGl0bGU+PHBhdGggZmlsbD0iIzAwNzFjZSIgZD0iTTE3Mi4zOSAzOTEuMjdjLTE0LjI1LTE5LTQwLjI3LTQwLjQ0LTQwLjI3LTQwLjQ0IDM0LjI5IDkuMzIgNTIuMjIgMjYuMiA1Mi4yMiAyNi4yQzE4MCAzODIuNDggMTcyLjU2IDM5MS40NSAxNzIuMzkgMzkxLjI3Wm0tNDEuMzItMzkuNzRzLTE5LjcgMjcuMDgtMjUuNjcgNTIuNzVjMCAuMzUgMTAuNTQtMTUuNjUgMzkuNTYtNDAuMjZDMTQ1LjEzIDM2NCAxMzkuNTEgMzU4LjM5IDEzMS4wNyAzNTEuNTNabS0yNS4xNSA1NHMyMi41MSAxNy43NiA1Mi45MyAyNS4zMmMwLS4xOC0yNi0xOS44Ny00MS0zOS4zOEMxMTcuODggMzkxLjYyIDEwNS45MiA0MDUuNTEgMTA1LjkyIDQwNS41MVptNDAuNjIgMTMuMzcgMTMuODkgMTEuOTVzMTktMjYgMjQuNDQtNTIuNzVDMTg0Ljg3IDM3OC4yNiAxNjIuODkgNDA3LjA5IDE0Ni41NCA0MTguODhabTU1LjExLTYyLjU4SDIyOWMyMiAwIDM3LjIgMTUuMSAzNy4yIDM0Ljh2LjJjMCAxOS43LTE1LjIgMzUtMzcuMiAzNWgtMjcuM1ptMTUuNCAxMy45djQyLjJIMjI5YzEyLjYgMCAyMS4xLTguNSAyMS4xLTIwLjl2LS4yYzAtMTIuNC04LjUtMjEuMS0yMS4xLTIxLjFabTYyLjgtMTMuOWg1Mi44VjM3MGgtMzcuNXYxNC4yaDMzdjEzLjdoLTMzdjE0LjdoMzh2MTMuN2gtNTMuM1ptNjMuOSAzNS4ydi0uMmMwLTE5LjkgMTUtMzYuMiAzNi41LTM2LjIgMTMuMiAwIDIxLjEgNC40IDI3LjYgMTAuOGwtOS44IDExLjNjLTUuNC00LjktMTAuOS03LjktMTcuOS03LjktMTEuOCAwLTIwLjMgOS44LTIwLjMgMjEuOHYuMmMwIDEyIDguMyAyMiAyMC4zIDIyIDggMCAxMi45LTMuMiAxOC40LTguMmw5LjggOS45Yy03LjIgNy43MS0xNS4yIDEyLjUxLTI4LjcgMTIuNTFDMzU5LjA1IDQyNy41MSAzNDMuNzUgNDExLjYgMzQzLjc1IDM5MS41Wm0xMDAuOS0zNS43aDE0LjJsMzAgNzAuNWgtMTYuMWwtNi40LTE1LjdoLTI5LjZsLTYuNCAxNS43aC0xNS43Wm0xNi4yIDQxLjItOS4zLTIyLjctOS4zIDIyLjdabTMxLjk1IDI3LjEzdjBhMi4xIDIuMSAwIDAgMSAyLjA5LTIuMUEyLjA4IDIuMDggMCAwIDEgNDk3IDQyNC4xaDBhMi4xIDIuMSAwIDAgMS0yLjA5IDIuMUEyLjA4IDIuMDggMCAwIDEgNDkyLjggNDI0LjEzWm0zLjk0IDBoMGExLjg0IDEuODQgMCAwIDAtMS44NS0xLjg2IDEuODYgMS44NiAwIDAgMC0xLjg1IDEuODd2MGExLjg1IDEuODUgMCAxIDAgMy43IDBabS0yLjY2LTEuMWgxYy40NiAwIC44MS4yMy44MS42N2EuNjMuNjMgMCAwIDEtLjQ5LjY1bC41Ni44aC0uNDlsLS41LS43M2gtLjQ1di43M2gtLjRabS45MiAxLjA1Yy4yOCAwIC40My0uMTQuNDMtLjM0cy0uMTUtLjM1LS40My0uMzVoLS41MnYuNjlaIi8+PC9zdmc+" x="96" y="96" width="320" height="170" preserveAspectRatio="xMidYMid meet"/>
+  <line x1="120" y1="290" x2="392" y2="290" stroke="#e2e6ef" stroke-width="3"/>
+  <text x="256" y="330" text-anchor="middle" fill="#1a1a1a" font-family="Manrope, Inter, Arial, sans-serif" font-size="28" font-weight="700">2x State Champion</text>
+  <text x="256" y="368" text-anchor="middle" fill="#4a4a4a" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">DECA Nevada</text>
+  <text x="256" y="410" text-anchor="middle" fill="#00539b" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">2024–2025</text>
+</svg>

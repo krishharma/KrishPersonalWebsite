@@ -1,0 +1,174 @@
+.honor-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(79, 124, 255, 0.12);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.honor-card--tier-high {
+  border-color: rgba(79, 124, 255, 0.22);
+}
+
+.honor-card__stamp {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4f7cff;
+  background: rgba(79, 124, 255, 0.1);
+}
+
+.honor-card__stamp--state {
+  color: #5a5f6c;
+  background: rgba(14, 15, 18, 0.06);
+}
+
+.honor-card__stamp--regional {
+  color: #6b4f9e;
+  background: rgba(107, 79, 158, 0.1);
+}
+
+.honor-card__stamp--national {
+  color: #4f7cff;
+  background: rgba(79, 124, 255, 0.12);
+}
+
+.honor-card__stamp--international {
+  color: #1f6b4a;
+  background: rgba(31, 107, 74, 0.1);
+}
+
+.honor-card__seal {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.honor-card__seal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 6px;
+}
+
+.honor-card__logo--wide {
+  padding: 4px;
+  object-fit: contain;
+  transform: scale(1.08);
+}
+
+.honor-card__seal span {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4f7cff;
+}
+
+.honor-card__body {
+  min-width: 0;
+}
+
+.honor-card__title {
+  margin: 0 0 6px;
+  padding-right: 56px;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #141414;
+}
+
+.honor-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #6b6b6b;
+}
+
+.honor-card__year {
+  font-weight: 600;
+  color: #4f7cff;
+}
+
+.honor-card__context {
+  color: #6b6b6b;
+}
+
+/* Grid tile layout */
+.honor-card--grid {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 16px;
+  align-items: start;
+  justify-items: center;
+  text-align: center;
+  padding: 24px 20px 22px;
+  min-height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.honor-card--grid:hover {
+  transform: translateY(-3px);
+  border-color: rgba(79, 124, 255, 0.28);
+  box-shadow: 0 12px 32px rgba(79, 124, 255, 0.1);
+}
+
+.honor-card--grid .honor-card__seal {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+}
+
+.honor-card--grid .honor-card__body {
+  width: 100%;
+}
+
+.honor-card--grid .honor-card__title {
+  padding-right: 0;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.honor-card--grid .honor-card__meta {
+  justify-content: center;
+  font-size: 12px;
+}
+
+.honor-card--grid .honor-card__stamp {
+  top: 12px;
+  right: 12px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .honor-card--grid {
+    transition: none;
+  }
+
+  .honor-card--grid:hover {
+    transform: none;
+  }
+}

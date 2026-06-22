@@ -1,0 +1,9 @@
+.spiderman-hero { height: 100vh; background: transparent; color: var(--text-primary); position: relative; overflow: hidden; width: 100%; padding: 88px 40px 0 40px; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; }
+@media (max-width: 768px) { .spiderman-hero { padding: 0 32px 32px 32px; } }
+@media (max-width: 480px) { .spiderman-hero { padding: 0 24px 24px 24px; } }
+.hero-next-arrow { position: fixed; bottom: 40px; right: 40px; width: 64px; height: 64px; border-radius: 50%; background: rgba(79, 124, 255, 0.1); border: 2px solid #4f7cff; color: #4f7cff; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 100; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); animation: bounceArrow 2s infinite; }
+.hero-next-arrow:hover { background: #4f7cff; color: #fff; transform: translateY(-4px); box-shadow: 0 8px 24px rgba(79, 124, 255, 0.4); }
+.hero-next-arrow:active { transform: translateY(-2px); }
+@keyframes bounceArrow { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+.hero-next-arrow:hover { animation: none; }
+@media (max-width: 768px) { .hero-next-arrow { bottom: 24px; right: 24px; width: 56px; height: 56px; } }

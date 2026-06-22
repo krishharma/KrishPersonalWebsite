@@ -1,0 +1,17 @@
+:root { --title-circle-d: 240px; --scroller-gap: -2px; }
+.main-title-section { position: relative; height: 38vh; display: flex; align-items: center; justify-content: center; margin: 0; }
+.background-rectangle { position: absolute; top: 17%; left: 50%; transform: translate(-50%, -250%); width: min(1100px, calc(100vw - 80px)); height: 170px; background: #4f7cff; border-radius: 20px; z-index: 4; pointer-events: none; opacity: 0; transition: all 1s cubic-bezier(0.18, 1.8, 0.4, 1); transition-delay: 2s; display: flex; align-items: center; justify-content: center; }
+body.page-loaded .background-rectangle { opacity: 1; transform: translate(-50%, -50%); }
+.background-name { font-family: 'Bebas Neue', sans-serif; font-size: 112px; font-weight: bold; color: rgba(255, 255, 255, 0.35); letter-spacing: 0.15em; position: relative; z-index: 25; white-space: nowrap; }
+.title-container { position: relative; display: flex; align-items: center; justify-content: center; z-index: 10; width: 100%; height: 100%; }
+.bottom-hero-placeholder { position: absolute; left: 50%; bottom: 0; transform: translate(-50%, 0) scale(0.96); transform-origin: bottom center; width: 416px; height: 656px; z-index: 30; background: none; background-image: url('https://customer-assets.emergentagent.com/job_4362c63c-e6a0-481c-8e7d-4d593f16d62b/artifacts/7ar3933j_image.png'); background-size: contain; background-repeat: no-repeat; background-position: bottom center; border-radius: 0; pointer-events: none; opacity: 0; transition: opacity 0.4s ease, transform 0.4s ease; }
+body.page-loaded .bottom-hero-placeholder { opacity: 1; transform: translate(-50%, 0) scale(1); }
+.infinite-scroller-container { position: absolute; top: calc(50% + 165px); left: 50%; width: 104vw; max-width: none; margin-left: -52vw; height: 96px; background: var(--scroller-bg); overflow: hidden; box-sizing: border-box; padding: 12px 0; display: flex; justify-content: center; align-items: center; transform: rotate(357deg); transform-origin: center; z-index: 12; pointer-events: none; opacity: 0; transition: opacity 0.4s ease; box-shadow: 0 8px 24px rgba(79, 124, 255, 0.08); }
+body.page-loaded .infinite-scroller-container { opacity: 1; }
+.infinite-scroller { overflow: hidden; width: 110vw; max-width: none; margin-left: -5vw; }
+.scroller-track { display: inline-flex; align-items: center; gap: 16px; width: max-content; padding: 0; animation: scroll-left 20s linear infinite; will-change: transform; }
+.scroller-icon-item { width: 56px; height: 56px; border-radius: 50%; background: var(--scroller-chip-bg); border: 2px solid var(--scroller-chip-border); flex: 0 0 auto; overflow: hidden; display: flex; align-items: center; justify-content: center; color: var(--accent); transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(79, 124, 255, 0.12); }
+.scroller-icon-item:hover { background: var(--accent); color: #fff; transform: scale(1.1); }
+@keyframes scroll-left { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+@media (max-width: 768px) { .main-title-section { height: 35vh; margin: 0.5rem 0; } :root { --title-circle-d: 320px; } }
+@media (max-width: 480px) { .main-title-section { height: 30vh; } :root { --title-circle-d: 220px; } }
