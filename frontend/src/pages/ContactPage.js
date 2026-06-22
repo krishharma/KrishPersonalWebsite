@@ -9,19 +9,53 @@ const SCHOLAR_URL = "https://scholar.google.com/citations?user=d7tyFq8AAAAJ";
 
 const ContactPage = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [submitting, setSubmitting] = useState(false);
+  const [status, setStatus] = useState({ type: "", message: "" });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`Portfolio contact from ${form.name || "visitor"}`);
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`
-    );
-    window.location.href = `mailto:${EMAIL}?subject=${subject}&body=${body}`;
+    setSubmitting(true);
+    setStatus({ type: "", message: "" });
+
+    try {
+      const response = await fetch(`https://formsubmit.co/ajax/${EMAIL}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          message: form.message
+        })
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success === "true") {
+        setStatus({
+          type: "success",
+          message: "Thank you! Your message has been sent successfully."
+        });
+        setForm({ name: "", email: "", message: "" });
+      } else {
+        throw new Error(data.message || "Failed to send message.");
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus({
+        type: "error",
+        message: "Failed to send message. Please try again or email directly."
+      });
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -42,6 +76,12 @@ const ContactPage = () => {
 
       <div className="contact-page__layout">
         <form className="contact-form" onSubmit={handleSubmit}>
+          {status.message && (
+            <div className={`contact-form__status contact-form__status--${status.type}`}>
+              {status.message}
+            </div>
+          )}
+
           <div className="contact-form__field">
             <label className="contact-form__label" htmlFor="contact-name">
               Name
@@ -55,6 +95,7 @@ const ContactPage = () => {
               onChange={handleChange}
               required
               autoComplete="name"
+              disabled={submitting}
             />
           </div>
 
@@ -71,6 +112,7 @@ const ContactPage = () => {
               onChange={handleChange}
               required
               autoComplete="email"
+              disabled={submitting}
             />
           </div>
 
@@ -85,11 +127,16 @@ const ContactPage = () => {
               value={form.message}
               onChange={handleChange}
               required
+              disabled={submitting}
             />
           </div>
 
-          <button type="submit" className="contact-form__submit">
-            Send
+          <button 
+            type="submit" 
+            className="contact-form__submit"
+            disabled={submitting}
+          >
+            {submitting ? "Sending..." : "Send"}
           </button>
         </form>
 
