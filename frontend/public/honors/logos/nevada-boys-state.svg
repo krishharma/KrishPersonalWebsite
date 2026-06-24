@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="56" fill="#0B2265" stroke="#F2C94C" stroke-width="4" />
+  <polygon points="60,20 64,31 76,31 67,38 70,50 60,42 50,50 53,38 44,31 56,31" fill="#F2C94C" />
+  <path d="M 46,48 L 74,48 L 74,66 L 59,86 L 50,86 L 46,68 Z" fill="#F2C94C" opacity="0.85" />
+  <circle cx="50" cy="55" r="2" fill="#0B2265" />
+  <text x="60" y="100" text-anchor="middle" fill="#FFFFFF" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" letter-spacing="0.5">BOYS STATE</text>
+  <text x="60" y="110" text-anchor="middle" fill="#F2C94C" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="8" font-weight="700" letter-spacing="1">NEVADA</text>
+</svg>
