@@ -89,7 +89,7 @@ const honorsMenuItems = [
     level: "national",
     title: "2x NSDA Qualifier",
     description: "2024–2025 · National Speech & Debate",
-    category: "Speech & Debate",
+    category: "Speech, Debate & Public Speaking",
   },
   {
     image: "/honors/nsda.svg",
@@ -99,7 +99,7 @@ const honorsMenuItems = [
     level: "state",
     title: "State Champion · U.S. Extemporaneous Speaking",
     description: "Mar 2026 · National Speech & Debate Association",
-    category: "Speech & Debate",
+    category: "Speech, Debate & Public Speaking",
   },
   {
     image: "/honors/nietoc.svg",
@@ -108,7 +108,7 @@ const honorsMenuItems = [
     level: "national",
     title: "2x NIETOC Qualifier",
     description: "2024–2025 · Speech and Debate",
-    category: "Speech & Debate",
+    category: "Speech, Debate & Public Speaking",
   },
   {
     image: "/honors/boys-state-orator.svg",
@@ -117,7 +117,7 @@ const honorsMenuItems = [
     level: "state",
     title: "Oratorical Scholarship Winner",
     description: "2026 · Nevada Boys State ($1,000 Scholarship)",
-    category: "Speech & Debate",
+    category: "Speech, Debate & Public Speaking",
   },
 ];
 

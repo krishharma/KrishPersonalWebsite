@@ -5,7 +5,7 @@ import "./TrophyCase.css";
 const CATEGORY_ORDER = [
   "Research & Innovation",
   "Business & Leadership",
-  "Speech & Debate",
+  "Speech, Debate & Public Speaking",
 ];
 
 function groupByCategory(awards) {

@@ -7,7 +7,7 @@ import "./HonorsPage.css";
 const CATEGORY_ORDER = [
   "Research & Innovation",
   "Business & Leadership",
-  "Speech & Debate",
+  "Speech, Debate & Public Speaking",
 ];
 
 const HonorsPage = () => {
@@ -30,7 +30,7 @@ const HonorsPage = () => {
     <div className="page-container page-with-nav honors-page">
       <SiteSEO
         title="Honors & Awards"
-        description="National and state-level honors and awards earned by Krish Sharma in research, DECA, FBLA, and speech & debate."
+        description="National and state-level honors and awards earned by Krish Sharma in research, DECA, FBLA, and speech, debate & public speaking."
         path="/honors"
       />
 
