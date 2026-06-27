@@ -3,8 +3,8 @@ const honorsMenuItems = [
     image: "/honors/national-stem.svg",
     logo: "/honors/logos/stem.png",
     level: "national",
-    title: "National STEM Festival Champion",
-    description: "2025 · Pneumonia Screening Mobile Application",
+    title: "National Champion",
+    description: "2025 · National Stem Festival",
     category: "Research & Innovation",
   },
   {
@@ -25,10 +25,11 @@ const honorsMenuItems = [
   },
   {
     image: "/honors/broadcom-foundation.svg",
-    logo: "/honors/logos/broadcom.svg",
+    logo: "/honors/logos/broadcom.png",
+    logoWide: true,
     level: "national",
-    title: "Broadcom Foundation Tech For Good Award",
-    description: "2025 · Outstanding Application of Technology for Social Good",
+    title: "Tech For Good Award",
+    description: "2025 · Broadcom Foundation",
     category: "Research & Innovation",
   },
   {
