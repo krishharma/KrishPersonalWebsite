@@ -20,7 +20,15 @@ const honorsMenuItems = [
     logo: "/honors/logos/dragon.png",
     level: "regional",
     title: "Dragon Kim Foundation Fellow",
-    description: "2024 · $5,000 Social Impact Award",
+    description: "2026 · $5,000 Social Impact Award",
+    category: "Research & Innovation",
+  },
+  {
+    image: "/honors/broadcom-foundation.svg",
+    logo: "/honors/logos/broadcom.svg",
+    level: "national",
+    title: "Broadcom Foundation Tech For Good Award",
+    description: "2025 · Outstanding Application of Technology for Social Good",
     category: "Research & Innovation",
   },
   {
