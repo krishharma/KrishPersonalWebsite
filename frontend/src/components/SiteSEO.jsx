@@ -30,6 +30,8 @@ export default function SiteSEO({
     <Helmet>
       <title>{pageTitle}</title>
       <meta name="description" content={description} />
+      {/* Prevent search engines from indexing (Reverse later if needed) */}
+      <meta name="robots" content="noindex, nofollow" />
       <link rel="canonical" href={canonical} />
 
       <meta property="og:type" content="website" />

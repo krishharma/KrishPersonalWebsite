@@ -12,8 +12,8 @@ export const EXPERIENCES = [
       "PyTorch Geometric pipelines with a PhD mentor and undergrad team.",
     ],
     tags: ["GNNs", "PyTorch", "Privacy"],
-    logo: "/experience/logos/unlv.svg",
-    logoAlt: "UNLV logo",
+    logo: "/experience/logos/disc.png",
+    logoAlt: "UNLV DiSC Lab logo",
   },
   {
     id: "datax",
