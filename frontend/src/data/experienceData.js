@@ -145,17 +145,4 @@ export const EXPERIENCES = [
     logo: "/experience/logos/ntooitive.webp",
     logoAlt: "Ntooitive Digital logo",
   },
-  {
-    id: "tech-crib",
-    index: "10",
-    org: "The Tech Crib",
-    title: "Founder & Editor",
-    dates: "Aug 2024 – Present",
-    hook: "Weekly AI & tech analysis for everyday readers.",
-    metric: { value: "Live", label: "Blog" },
-    highlights: ["Founder-editor of an AI & tech publication."],
-    tags: ["Writing", "AI", "Media"],
-    logo: "/experience/logos/tech-crib.png",
-    logoAlt: "The Tech Crib logo",
-  },
 ];
