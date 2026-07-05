@@ -56,9 +56,11 @@
   .nav-items { gap: 1rem; }
   .nav-item { font-size: 0.8rem; padding: 0.4rem 0.8rem; }
   .nav-logo { font-size: 1.2rem; }
+  .nav-content { padding: 0 24px; }
 }
 
 @media (max-width: 480px) {
   .nav-items { display: none; }
   .nav-icons { gap: 0.5rem; }
+  .nav-content { padding: 0 16px; }
 }
