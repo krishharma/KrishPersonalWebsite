@@ -13,3 +13,9 @@
   pointer-events: none;
   z-index: 99998;
 }
+
+@media (hover: none) and (pointer: coarse), (max-width: 768px) {
+  .pixel-canvas, .goo-filter-container {
+    display: none !important;
+  }
+}
