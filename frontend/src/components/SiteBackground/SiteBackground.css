@@ -51,3 +51,16 @@
   height: 320px;
   background: rgba(225, 29, 72, 0.08);
 }
+
+@media (max-width: 768px) {
+  .site-background__orb {
+    transform: scale(0.6);
+    opacity: 0.7;
+  }
+}
+@media (max-width: 480px) {
+  .site-background__orb {
+    transform: scale(0.4);
+    opacity: 0.5;
+  }
+}
