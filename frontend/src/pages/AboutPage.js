@@ -45,62 +45,60 @@ const AboutPage = () => {
       <header className="about-page__header">
         <p className="about-page__eyebrow">About</p>
         <h1 className="about-page__title">Krish Sharma</h1>
-        <p className="about-page__subtitle">
-          Building at the intersection of research, engineering, and ideas that start on my phone
-        </p>
       </header>
 
       <div className="about-page__content">
         <div className="about-page__intro">
           <p className="about-page__text">Hi, I&apos;m Krish.</p>
           <p className="about-page__text">
-            I&apos;m a student from Las Vegas who likes building things, whether that&apos;s a piece
-            of software, a research project, or an idea that starts as a note on my phone and
-            somehow turns into months of work.
+            I&apos;m from Las Vegas and have spent my High School years at Ed W. Clark High School.
+            Vaguely speaking, I enjoy building things, whether it&apos;s a piece of software, a
+            research project, or an idea that starts from a simple conversation with friends.
           </p>
           <p className="about-page__text">
             A lot of my interests sit at the intersection of technology, business, and
-            problem-solving. I&apos;m fascinated by how people make decisions, how systems work,
-            and how a good idea becomes something real. That&apos;s led me into everything from
-            neuromorphic research and engineering projects to investing, entrepreneurship, and
-            teaching financial literacy through my Dragon Kim fellowship.
+            problem-solving. I&apos;m especially fascinated by building under constraints, whether
+            that&apos;s limited compute, limited data, or limited time, and figuring out how to make
+            something work anyway. That&apos;s led me into everything from neuromorphic research and
+            engineering projects to investing and teaching financial literacy.
           </p>
           <p className="about-page__text">
-            Most of my projects begin with me thinking, &ldquo;this can&apos;t be that hard,&rdquo;
-            which has turned out to be wrong more often than I&apos;d like to admit.
+            That covers most of the building side of me. The two other parts that shaped me just
+            as much are breakdancing and speaking.
           </p>
         </div>
 
         <section className="about-page__section">
           <h2 className="about-page__section-title">Dance</h2>
           <p className="about-page__text">
-            I&apos;ve been breakdancing for 8 years with The Zoo (Zoologic Empire), a Las Vegas crew
-            that&apos;s taken me everywhere from local cyphers to America&apos;s Got Talent. I love the
-            culture, the people, and the fact that every session introduces you to b-boys from
-            completely different backgrounds who somehow all speak the same language on the floor.
+            I&apos;ve been breakdancing for 8 years with a Las Vegas breakdancing crew called The
+            Zoo (Zoologic Empire). I&apos;ve broken with them everywhere from local cyphers to
+            America&apos;s Got Talent. I love the people and the culture. Every break session somehow
+            manages to bring together b-boys from all walks of life who all speak the same language
+            on the floor.
           </p>
           <p className="about-page__text">
-            I&apos;m especially into old-school music when I break. If you ever need me locked in,
-            put on A Tribe Called Quest and step back. Something about that sound just makes my
-            footwork make sense.
+            My personal preference when I break is old-school music. If you want me locked in, put on
+            A Tribe Called Quest and step back. That music has a way of helping my footwork make
+            sense.
           </p>
           <p className="about-page__text">
-            AGT was surreal for a lot of reasons, but yes, I did get to talk to Terry Crews backstage.
-            He was exactly as enthusiastic as you&apos;d hope. I still think about that conversation
-            more than I probably should.
+            America&apos;s Got Talent was surreal for many reasons, but yes, I did get to talk to Terry
+            Crews backstage. He was as enthusiastic as you&apos;d hope. I still think about that
+            conversation more than I probably should.
           </p>
           <p className="about-page__text">
-            I also try to pay forward what I got when I started. Older b-boys pulled me into the
-            circle when I was a wide-eyed kid who had no business being there, so I spend a lot of
-            time helping newer and younger dancers find their footing. Same energy as debugging
-            code with a friend at midnight, honestly.
+            I also try to give back what I received when I started. As a young dancer, older b-boys
+            pulled me into the circle when I had no business being there, so I spend a lot of time
+            helping newer and younger dancers find their footing. Same energy as debugging code with
+            a friend at midnight, honestly.
           </p>
           <p className="about-page__text">
-            What I love most about dance isn&apos;t actually performing. It&apos;s the process. You spend
-            hours on a move that doesn&apos;t work, tweak it, and try again until something clicks.
-            That&apos;s probably why I enjoy engineering and building projects so much. Whether it&apos;s
-            a new combo or a research idea, the satisfaction comes from figuring things out one
-            step at a time.
+            What I love most about dance isn&apos;t actually performing. It&apos;s the process. You can spend
+            hours on a move that isn&apos;t quite right, tweaking and trying again until it finally
+            works. I think that&apos;s also why I enjoy engineering and building projects. Whether
+            it&apos;s a new combo or a research project, there&apos;s satisfaction in solving things step
+            by step.
           </p>
 
           <div className="about-page__video">
@@ -134,22 +132,22 @@ const AboutPage = () => {
         <section className="about-page__section">
           <h2 className="about-page__section-title">Speaking</h2>
           <p className="about-page__text">
-            I genuinely love being on a stage. TEDx, research conferences, debate rounds, random
-            presentations I probably volunteered for. If there&apos;s a microphone and a crowd that
-            looks slightly confused, I&apos;m interested.
+            I love being on stage. Debate, research conferences, TEDx, and random talks I most likely
+            signed up for. As long as there&apos;s a crowd that&apos;s somewhat bewildered and a microphone
+            in hand, I&apos;m in.
           </p>
           <p className="about-page__text">
-            At TEDx LVA Youth, I gave a talk called &ldquo;Starting Before You&apos;re Ready: The Freestyle
-            Mindset,&rdquo; which is basically my breakdance origin story dressed up as life advice.
-            The whole point: confidence shows up after you step in, not before. I may have used the
-            word &ldquo;cypher&rdquo; on a TEDx stage. No regrets.
+            For TEDx LVA Youth I gave a talk titled &ldquo;Starting Before You&apos;re Ready: The Freestyle
+            Mindset.&rdquo; In short, it&apos;s my breakdance origin story wrapped up as life advice. The key
+            takeaway is confidence shows up the moment you start, not before. I did say the word
+            &ldquo;cypher&rdquo; on a TEDx stage. No regrets.
           </p>
           <p className="about-page__text">
-            My favorite part of speaking is watching someone&apos;s face change when a complicated idea
-            finally clicks. That rush is half the reason I do research presentations, half the reason
-            I competed in speech and debate, and basically the whole reason I co-founded Wall Street
-            Warriors through the Dragon Kim Fellowship to teach middle schoolers financial literacy.
-            Explaining something hard in a way that actually lands feels like a superpower.
+            My favorite part of presenting is seeing the light come on in someone&apos;s eyes when a
+            complex idea finally clicks. That high is part of why I present research, part of why I
+            do speech and debate, and largely why I co-founded Wall Street Warriors through the
+            Dragon Kim Fellowship to teach middle schoolers financial literacy. Explaining something
+            difficult in a way that actually connects feels like a superpower.
           </p>
 
           <div className="about-page__photo-grid">
