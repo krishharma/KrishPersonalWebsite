@@ -1,31 +1,9 @@
 const projects = [
   {
-    id: "pneumonia-app",
-    title: "Pneumonia Screening Mobile App",
-    domain: "Health Tech",
-    year: "2025",
-    imageLayout: "aside",
-    figureCaption: "National STEM Festival",
-    video: {
-      youtubeId: "E9LtBBjrGps",
-      start: 2,
-      title: "National STEM Festival presentation",
-    },
-    paragraphs: [
-      "I built a mobile app that records breathing and cough audio, then classifies pneumonia risk in real time using convolutional neural networks.",
-      "The goal was something a clinician or student could actually use to record, run inference, and get a result, rather than just a model sitting in a notebook.",
-    ],
-    bullets: [
-      "National STEM Festival Champion",
-      "Python and Swift for the pipeline and iOS front end",
-      "CNN-based audio classification",
-    ],
-  },
-  {
     id: "neuromorphic-bci",
     title: "Neuromorphic BCI Architecture",
     domain: "Neurotech",
-    year: "2025",
+    year: "2025-2026",
     imageLayout: "aside",
     asideImage: {
       src: "/projects/bci/science-fair-award.png",
@@ -43,20 +21,43 @@ const projects = [
       },
     ],
     paragraphs: [
-      "I designed a neuromorphic brain-computer interface architecture that processes EEG signals with spiking neural networks instead of conventional deep learning.",
-      "The point was energy efficiency, creating assistive interfaces that could run on constrained hardware without sacrificing signal quality.",
+      "Neuro-G is the most ambitious project I have taken on, and the one I am proudest of. I set out to design a sub-milliwatt neuromorphic brain-computer interface that could process EEG with spiking neural networks on constrained FPGA hardware, instead of power-hungry conventional deep learning.",
+      "Getting there meant learning the hard specifics from scratch: SNN theory, EEG signal pipelines, hardware-aware energy budgets, and how to evaluate whether a design could actually work for assistive interfaces. It forced me to think like an engineer end to end, from idea to architecture to results.",
     ],
     bullets: [
       "1st Place Engineering, Southern Nevada Science Fair",
-      "Spiking neural networks for EEG processing",
-      "Python-based simulation and evaluation",
+      "Sub-milliwatt neuromorphic FPGA architecture for wireless BCI",
+      "Spiking neural networks for energy-efficient EEG processing",
+    ],
+  },
+  {
+    id: "pneumonia-app",
+    title: "Pneumonia Screening Mobile App",
+    domain: "Health Tech",
+    year: "2026",
+    imageLayout: "aside",
+    figureCaption: "National STEM Festival",
+    video: {
+      youtubeId: "E9LtBBjrGps",
+      start: 2,
+      title: "National STEM Festival presentation",
+    },
+    paragraphs: [
+      "I designed and shipped a mobile pneumonia screening app that turns cough and breathing audio into real-time risk predictions using convolutional neural networks, built end-to-end from raw audio to on-device inference.",
+      "Rather than stopping at a model in a notebook, I engineered the full stack: a Python audio pipeline and CNN classifier, a Swift iOS front end for recording and results, and a workflow someone could actually pick up and use. With this project, I earned the title of National STEM Festival Champion and received the Broadcom Tech For Good Award, an honor given to just one project nationwide each year.",
+      "Watch the video. The project speaks for itself better than I can.",
+    ],
+    bullets: [
+      "National STEM Festival Champion",
+      "Python and Swift for the pipeline and iOS front end",
+      "CNN-based audio classification",
     ],
   },
   {
     id: "dragon-kim",
     title: "Dragon Kim Foundation Fellowship",
     domain: "Social Impact",
-    year: "2024",
+    year: "2025",
     imageLayout: "aside",
     figureCaption: "Wall Street Warriors: Dragon Kim Fellowship at Ed W. Clark High School",
     images: [
@@ -66,8 +67,8 @@ const projects = [
       },
     ],
     paragraphs: [
-      "I founded and ran a seven-month project teaching middle schoolers financial and digital literacy, in person, online, and through a mobile app.",
-      "The fellowship came with $5,000 in seed funding. I presented the work to a panel that included a mayor, C-level executives, and angel investors.",
+      "I co-founded and led Wall Street Warriors, a seven-month Dragon Kim Foundation fellowship project that brought financial and digital literacy to middle schoolers through in-person workshops, online programming, and a mobile app we built to extend the curriculum.",
+      "Selected from a competitive applicant pool, we received $5,000 in seed funding to scale the initiative. I pitched and presented the work to a review panel that included a mayor, C-level executives, and angel investors.",
     ],
     bullets: [
       "$5,000 fellowship award",

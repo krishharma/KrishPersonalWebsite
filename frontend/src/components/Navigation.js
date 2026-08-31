@@ -10,9 +10,9 @@ const Navigation = () => {
   const navItems = [
     { label: "ABOUT", id: "about", path: "/about" },
     { label: "EXPERIENCE", id: "experience", path: "/experience" },
-    { label: "PROJECTS", id: "projects", path: "/projects" },
+    { label: "MY PROJECTS", id: "projects", path: "/projects" },
     { label: "RESEARCH", id: "research", path: "/research" },
-    { label: "HONORS", id: "honors", path: "/honors" },
+    { label: "AWARDS", id: "honors", path: "/honors" },
     { label: "CONTACT", id: "contact", path: "/contact" },
   ];
 

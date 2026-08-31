@@ -92,7 +92,11 @@
 .experience-card__logo-wrap--wide {
   width: 132px;
   height: 88px;
-  padding: 10px 12px;
+  padding: 8px 10px;
+}
+
+.experience-card__logo-wrap--wide .experience-card__logo {
+  transform: scale(1.12);
 }
 
 .experience-card__body {

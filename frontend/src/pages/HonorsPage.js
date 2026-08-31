@@ -7,7 +7,7 @@ import "./HonorsPage.css";
 const CATEGORY_ORDER = [
   "Research & Innovation",
   "Business & Leadership",
-  "Speech, Debate & Public Speaking",
+  "Speech, Debate, & Public Speaking",
 ];
 
 const HonorsPage = () => {

@@ -4,7 +4,7 @@ const honorsMenuItems = [
     logo: "/honors/logos/stem.png",
     level: "national",
     title: "National Champion",
-    description: "2025 · National Stem Festival",
+    description: "2026 · National Stem Festival",
     category: "Research & Innovation",
   },
   {
@@ -12,15 +12,7 @@ const honorsMenuItems = [
     logo: "/honors/logos/science-fair.png",
     level: "regional",
     title: "1st Place Engineering & Mathematics",
-    description: "2025 · Southern Nevada Science Fair",
-    category: "Research & Innovation",
-  },
-  {
-    image: "/honors/dragon-kim.svg",
-    logo: "/honors/logos/dragon.png",
-    level: "regional",
-    title: "Dragon Kim Foundation Fellow",
-    description: "2026 · $5,000 Social Impact Award",
+    description: "2026 · Southern Nevada Science Fair",
     category: "Research & Innovation",
   },
   {
@@ -29,7 +21,15 @@ const honorsMenuItems = [
     logoWide: true,
     level: "national",
     title: "Tech For Good Award",
-    description: "2025 · Broadcom Foundation",
+    description: "2026 · Broadcom Foundation",
+    category: "Research & Innovation",
+  },
+  {
+    image: "/honors/dragon-kim.svg",
+    logo: "/honors/logos/dragon.png",
+    level: "regional",
+    title: "Dragon Kim Foundation Fellow",
+    description: "2025 · $5,000 Social Impact Award",
     category: "Research & Innovation",
   },
   {
@@ -37,7 +37,7 @@ const honorsMenuItems = [
     logo: "/honors/logos/fbla.png",
     level: "national",
     title: "5th Place Public Speaking",
-    description: "2025 · FBLA National Leadership Conference",
+    description: "2024 · FBLA National Leadership Conference",
     category: "Business & Leadership",
   },
   {
@@ -45,7 +45,7 @@ const honorsMenuItems = [
     logo: "/honors/logos/fbla.png",
     level: "state",
     title: "6x State Champion",
-    description: "2023–2025 · FBLA Nevada",
+    description: "2024–2026 · Nevada FBLA",
     category: "Business & Leadership",
   },
   {
@@ -53,7 +53,7 @@ const honorsMenuItems = [
     logo: "/honors/logos/deca.svg",
     level: "international",
     title: "3x ICDC Qualifier",
-    description: "2023–2025 · DECA International",
+    description: "2024–2026 · DECA ICDC",
     category: "Business & Leadership",
   },
   {
@@ -61,7 +61,7 @@ const honorsMenuItems = [
     logo: "/honors/logos/deca.svg",
     level: "state",
     title: "2x State Champion",
-    description: "2024–2025 · DECA Nevada",
+    description: "2024–2026 · Nevada DECA",
     category: "Business & Leadership",
   },
   {
@@ -69,7 +69,7 @@ const honorsMenuItems = [
     logo: "/honors/logos/deca.svg",
     level: "international",
     title: "Top 20 · Career Development",
-    description: "Apr 2026 · DECA International Career Development Conference",
+    description: "2026 · DECA ICDC",
     category: "Business & Leadership",
   },
   {
@@ -98,7 +98,7 @@ const honorsMenuItems = [
     level: "national",
     title: "2x NSDA Qualifier",
     description: "2024–2025 · National Speech & Debate",
-    category: "Speech, Debate & Public Speaking",
+    category: "Speech, Debate, & Public Speaking",
   },
   {
     image: "/honors/nsda.svg",
@@ -107,8 +107,8 @@ const honorsMenuItems = [
     logoWide: true,
     level: "state",
     title: "State Champion · U.S. Extemporaneous Speaking",
-    description: "Mar 2026 · National Speech & Debate Association",
-    category: "Speech, Debate & Public Speaking",
+    description: "2026 · National Speech & Debate Association",
+    category: "Speech, Debate, & Public Speaking",
   },
   {
     image: "/honors/nietoc.svg",
@@ -116,8 +116,8 @@ const honorsMenuItems = [
     logoAlt: "NIETOC",
     level: "national",
     title: "2x NIETOC Qualifier",
-    description: "2024–2025 · Speech and Debate",
-    category: "Speech, Debate & Public Speaking",
+    description: "2025–2026 · Speech and Debate",
+    category: "Speech, Debate, & Public Speaking",
   },
   {
     image: "/honors/boys-state-orator.svg",
@@ -125,8 +125,8 @@ const honorsMenuItems = [
     logoAlt: "Nevada Boys State Logo",
     level: "state",
     title: "Oratorical Scholarship Winner",
-    description: "2026 · Nevada Boys State ($1,000 Scholarship)",
-    category: "Speech, Debate & Public Speaking",
+    description: "2026 · Nevada Boys State",
+    category: "Speech, Debate, & Public Speaking",
   },
 ];
 

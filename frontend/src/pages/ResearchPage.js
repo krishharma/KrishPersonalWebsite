@@ -97,10 +97,6 @@ const ResearchPage = () => {
         <header className="research-article__header">
           <p className="research-article__eyebrow">Krish Sharma</p>
           <h1 className="research-article__title">Research</h1>
-          <p className="research-article__dek">
-            Conference manuscripts, bioinformatics pipelines, and policy writing from
-            UNLV labs and Brookings Mountain West.
-          </p>
         </header>
 
         <div className="research-article__body">

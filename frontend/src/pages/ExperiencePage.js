@@ -14,13 +14,17 @@ const ExperiencePage = () => {
       <main className="experience-page__main">
         <header className="experience-page__hero">
           <p className="experience-page__eyebrow">Experience</p>
-          <h1 className="experience-page__title">Where I&apos;ve worked</h1>
+          <h1 className="experience-page__title">Where I&apos;ve learned</h1>
         </header>
 
         <div className="experience-list">
           {EXPERIENCES.map((role) => (
             <article key={role.id} className="experience-card" id={role.id}>
-              <div className="experience-card__logo-wrap">
+              <div
+                className={`experience-card__logo-wrap${
+                  role.logoWide ? " experience-card__logo-wrap--wide" : ""
+                }`}
+              >
                 <img
                   src={role.logo}
                   alt={role.logoAlt}

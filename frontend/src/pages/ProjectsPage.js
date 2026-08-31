@@ -213,17 +213,14 @@ const ProjectsPage = () => {
   return (
     <div className="page-container page-with-nav projects-page">
       <SiteSEO
-        title="Projects"
+        title="My Projects"
         description="Software and research projects by Krish Sharma, featuring AI tools, health apps, and fellowship work."
         path="/projects"
       />
       <article className="medium-article">
         <header className="medium-article__header">
           <p className="medium-article__author">Krish Sharma</p>
-          <h1 className="medium-article__title">Projects I&apos;ve built</h1>
-          <p className="medium-article__dek">
-            Research tools, a health app, and a fellowship project, written straight without a pitch deck.
-          </p>
+          <h1 className="medium-article__title">My Projects</h1>
         </header>
 
         <div className="medium-article__body">
