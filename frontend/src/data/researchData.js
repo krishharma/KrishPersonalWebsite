@@ -31,8 +31,8 @@ export const RESEARCH = [
     index: "02",
     kind: "lab",
     shortTitle: "GNN Privacy",
-    title: "Privacy Defenses for Graph Neural Networks",
-    titleLead: "Privacy Defenses",
+    title: "Computational Defenses for Graph Neural Networks",
+    titleLead: "Computational Defenses",
     titleSub: "for Graph Neural Networks",
     venue: "UNLV DiSC Lab",
     venueUrl: DISC_LAB_URL,
@@ -102,7 +102,7 @@ export const RESEARCH = [
     status: "accepted",
     statusLabel: "Accepted & presented",
     description:
-      "Research paper examining how firms define and operationalize corporate digital responsibility, covering the research question, literature review, methodology, data collection, and analysis under Dr. Chatterjee.",
+      "First-author research paper examining how firms define and operationalize corporate digital responsibility, covering the research question, literature review, methodology, data collection, and analysis under Dr. Chatterjee.",
     highlights: [
       "Defined research question, methodology, and analytical framework for studying corporate digital responsibility.",
       "Manuscript accepted and presented at WDSI 2026.",

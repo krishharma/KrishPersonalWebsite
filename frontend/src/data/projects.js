@@ -1,5 +1,28 @@
 const projects = [
   {
+    id: "pneumonia-app",
+    title: "Pneumonia Screening Mobile App",
+    domain: "Health Tech",
+    year: "2026",
+    imageLayout: "aside",
+    figureCaption: "National STEM Festival",
+    video: {
+      youtubeId: "E9LtBBjrGps",
+      start: 2,
+      title: "National STEM Festival presentation",
+    },
+    paragraphs: [
+      "I designed and shipped a mobile pneumonia screening app that turns cough and breathing audio into real-time risk predictions using convolutional neural networks, built end-to-end from raw audio to on-device inference.",
+      "Rather than stopping at a model in a notebook, I engineered the full stack: a Python audio pipeline and CNN classifier, a Swift iOS front end for recording and results, and a workflow someone could actually pick up and use. With this project, I earned the title of National STEM Festival Champion and received the Broadcom Tech For Good Award, an honor given to just one project nationwide each year.",
+      "Watch the video. The project speaks for itself better than I can.",
+    ],
+    bullets: [
+      "National STEM Festival Champion",
+      "Python and Swift for the pipeline and iOS front end",
+      "CNN-based audio classification",
+    ],
+  },
+  {
     id: "neuromorphic-bci",
     title: "Neuromorphic BCI Architecture",
     domain: "Neurotech",
@@ -28,29 +51,6 @@ const projects = [
       "1st Place Engineering, Southern Nevada Science Fair",
       "Sub-milliwatt neuromorphic FPGA architecture for wireless BCI",
       "Spiking neural networks for energy-efficient EEG processing",
-    ],
-  },
-  {
-    id: "pneumonia-app",
-    title: "Pneumonia Screening Mobile App",
-    domain: "Health Tech",
-    year: "2026",
-    imageLayout: "aside",
-    figureCaption: "National STEM Festival",
-    video: {
-      youtubeId: "E9LtBBjrGps",
-      start: 2,
-      title: "National STEM Festival presentation",
-    },
-    paragraphs: [
-      "I designed and shipped a mobile pneumonia screening app that turns cough and breathing audio into real-time risk predictions using convolutional neural networks, built end-to-end from raw audio to on-device inference.",
-      "Rather than stopping at a model in a notebook, I engineered the full stack: a Python audio pipeline and CNN classifier, a Swift iOS front end for recording and results, and a workflow someone could actually pick up and use. With this project, I earned the title of National STEM Festival Champion and received the Broadcom Tech For Good Award, an honor given to just one project nationwide each year.",
-      "Watch the video. The project speaks for itself better than I can.",
-    ],
-    bullets: [
-      "National STEM Festival Champion",
-      "Python and Swift for the pipeline and iOS front end",
-      "CNN-based audio classification",
     ],
   },
   {

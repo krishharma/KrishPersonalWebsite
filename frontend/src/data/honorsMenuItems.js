@@ -49,14 +49,6 @@ const honorsMenuItems = [
     category: "Business & Leadership",
   },
   {
-    image: "/honors/deca-icdc.svg",
-    logo: "/honors/logos/deca.svg",
-    level: "international",
-    title: "3x ICDC Qualifier",
-    description: "2024–2026 · DECA ICDC",
-    category: "Business & Leadership",
-  },
-  {
     image: "/honors/deca-state.svg",
     logo: "/honors/logos/deca.svg",
     level: "state",
