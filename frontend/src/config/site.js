@@ -1,5 +1,5 @@
 // Update REACT_APP_SITE_URL in .env when your domain goes live (e.g. https://krishsharmalv.com)
-export const SITE_URL = process.env.REACT_APP_SITE_URL || "https://krishsharmalv.com";
+export const SITE_URL = process.env.REACT_APP_SITE_URL || "https://www.krishsharmalv.com";
 
 export const SITE_NAME = "Krish Sharma";
 
