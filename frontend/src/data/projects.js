@@ -44,7 +44,7 @@ const projects = [
       },
     ],
     paragraphs: [
-      "Neuro-G is the most ambitious project I have taken on, and the one I am proudest of. I set out to design a sub-milliwatt neuromorphic brain-computer interface that could process EEG with spiking neural networks on constrained FPGA hardware, instead of power-hungry conventional deep learning.",
+      "Neuro-G is one of the more ambitious projects I have taken on. I set out to design a sub-milliwatt neuromorphic brain-computer interface that could process EEG with spiking neural networks on constrained FPGA hardware, instead of power-hungry conventional deep learning.",
       "Getting there meant learning the hard specifics from scratch: SNN theory, EEG signal pipelines, hardware-aware energy budgets, and how to evaluate whether a design could actually work for assistive interfaces. It forced me to think like an engineer end to end, from idea to architecture to results.",
     ],
     bullets: [
